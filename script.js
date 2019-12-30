@@ -69,7 +69,7 @@ function updateDisplay(key) {
 //If key was clear or del, reset display to 0 or check if last char in display is number or operator 
 //then remove it with del
 function clearOrDeleteDisplay(key, equation) {
-    if (key == "Clear") {
+    if (key == "AC") {
         document.getElementById("displayText").innerHTML = 0; 
         return true; 
     } else if (key == "Del") {	
