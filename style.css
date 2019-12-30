@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+.top {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 5%;
+    margin-bottom: 30px;
+    color: rgb(226, 226, 226);
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+}
+
+#container {
+    width: 360px;
+    height: 496px;
+    margin: auto;
+    margin-top: 5%; 
+}
+
+#display {
+    width: 360px;
+    height: 95px; 
+    background-color:rgb(226, 226, 226);
+    text-align: right;
+    position:relative;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-radius: 0.75em 0.75em 0em 0em;
+}
+
+#displayText {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 15px; 
+    padding-right: 10px; 
+    font-size: 1.5em;
+}
+
+#blank2 {
+    background-color:rgb(51, 51, 51);
+    width: 90px; 
+    height: 80px; 
+    float: left; 
+    border-radius: 0em 0em 0em 0.75em;
+}
+
+.buttons {
+    font-family: 'Niramit', sans-serif; 
+    font-weight:400;
+    font-size: 1.5em;
+    background-color:rgb(51, 51, 51);
+    width: 90px; 
+    height: 80px; 
+    float: left; 
+    text-align: center;
+    line-height: 80px;
+    color: rgba(255, 255, 255, 0.637);
+}
+
+.buttons:hover {
+    background-color:rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.637);
+}
+
+.notNum, #blank1 {
+    font-family: 'Niramit', sans-serif; 
+    font-weight:400;
+    font-size: 1.5em;
+    background-color:rgb(200, 200, 200);
+    width: 90px; 
+    height: 80px; 
+    float: left; 
+    text-align: center;
+    line-height: 80px;
+    color: rgba(22, 22, 22, 0.637); 
+}
+
+button, input {
+    border: none; 
+    outline: none; 
+}
+
+button::-moz-focus-inner {
+    border: 0;
+  }
+
+button:focus {outline: none;}
+
+.equals {
+    border-radius: 0em 0em 0.75em 0em;
+}
